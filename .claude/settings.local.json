@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --use-npm)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(find \"C:/Users/osaroDEV/AppData/Local/Temp/claude\" -iname \"*.png\" -newer \"C:/Users/osaroDEV/Documents/landing-reg/package.json\" 2>/dev/null | head -20)",
+      "Bash(find \"C:/Users/osaroDEV/AppData/Local/Temp/claude\" -iname \"*.png\" -o -iname \"*.jpg\" -o -iname \"*.jpeg\" 2>/dev/null | head -30; echo \"---\"; find \"C:/Users/osaroDEV\" -maxdepth 3 -iname \"*.png\" -mmin -60 2>/dev/null | head -20)"
+    ]
+  }
+}
