@@ -6,7 +6,18 @@
       "Bash(npx tsc *)",
       "Bash(npm run *)",
       "Bash(find \"C:/Users/osaroDEV/AppData/Local/Temp/claude\" -iname \"*.png\" -newer \"C:/Users/osaroDEV/Documents/landing-reg/package.json\" 2>/dev/null | head -20)",
-      "Bash(find \"C:/Users/osaroDEV/AppData/Local/Temp/claude\" -iname \"*.png\" -o -iname \"*.jpg\" -o -iname \"*.jpeg\" 2>/dev/null | head -30; echo \"---\"; find \"C:/Users/osaroDEV\" -maxdepth 3 -iname \"*.png\" -mmin -60 2>/dev/null | head -20)"
+      "Bash(find \"C:/Users/osaroDEV/AppData/Local/Temp/claude\" -iname \"*.png\" -o -iname \"*.jpg\" -o -iname \"*.jpeg\" 2>/dev/null | head -30; echo \"---\"; find \"C:/Users/osaroDEV\" -maxdepth 3 -iname \"*.png\" -mmin -60 2>/dev/null | head -20)",
+      "Bash(git checkout *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git config *)",
+      "Bash(GIT_AUTHOR_NAME=osaroDEV GIT_AUTHOR_EMAIL=osernon@gmail.com GIT_COMMITTER_NAME=osaroDEV GIT_COMMITTER_EMAIL=osernon@gmail.com git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(gh pr *)",
+      "PowerShell(gh --version 2>&1)",
+      "PowerShell(Get-Command gh -ErrorAction SilentlyContinue)",
+      "Bash(npm uninstall *)",
+      "Bash(git credential *)"
     ]
   }
 }
