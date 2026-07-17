@@ -57,14 +57,14 @@ export default function Home() {
             rel="noopener noreferrer"
             className="flex items-center gap-2 transition-colors hover:text-highlight"
           >
-            <WhatsAppIcon className="h-4 w-4 shrink-0 text-emerald-600" />
+            <WhatsAppIcon className="h-6 w-6 shrink-0 text-emerald-600" />
             <span className="hidden sm:inline font-semibold">{WHATSAPP_NUMBER}</span>
           </a>
           <a
             href={`mailto:${EMAIL}`}
             className="flex items-center gap-2 transition-colors hover:text-highlight"
           >
-            <MailIcon className="h-4 w-4 shrink-0 text-highlight" />
+            <MailIcon className="h-6 w-6 shrink-0 text-highlight" />
             <span className="hidden sm:inline font-semibold">{EMAIL}</span>
           </a>
         </div>
@@ -98,7 +98,7 @@ export default function Home() {
             </p>
             
             <CtaButton className="px-8 py-3.5 bg-foreground text-white rounded-full font-semibold text-sm sm:text-base hover:bg-highlight hover:scale-[1.02] transition-all shadow-sm hover:shadow-md cursor-pointer select-none active:scale-[0.98]">
-              Start Learning
+              Secure Your Child's Spot
             </CtaButton>
           </div>
 
@@ -108,7 +108,7 @@ export default function Home() {
         <div className="relative mt-8 md:mt-12 lg:mt-6 flex flex-col items-center justify-end select-none w-full max-w-7xl mx-auto h-[220px] sm:h-[280px] md:h-[340px] lg:h-[380px]">
           
           {/* Rainbow Arch */}
-          <RainbowArch className="absolute bottom-0 w-[140%] sm:w-[120%] lg:w-[100%] h-auto z-0" />
+          <RainbowArch className="absolute bottom-0 w-[140%] sm:w-[120%] lg:w-full h-auto z-0" />
 
           {/* Smiling Sun Doodle */}
           <SunDoodle className="absolute left-[4%] sm:left-[8%] lg:left-[12%] bottom-[20%] w-16 h-20 sm:w-24 sm:h-28 md:w-28 md:h-32 z-10" />
@@ -138,7 +138,7 @@ export default function Home() {
       </main>
 
       {/* Stats Section */}
-      <section className="shrink-0 border-t border-border bg-foreground/[0.015]">
+      <section className="shrink-0 border-t border-border bg-foreground/1.5">
         <div className="mx-auto grid max-w-4xl grid-cols-2 sm:grid-cols-4">
           {stats.map((stat, i) => (
             <div
@@ -152,7 +152,7 @@ export default function Home() {
               <span className="font-serif text-lg font-bold text-foreground sm:text-2xl">
                 {stat.value}
               </span>
-              <span className="text-[9px] font-bold uppercase tracking-[0.1em] text-muted sm:text-[10px] sm:tracking-[0.12em]">
+              <span className="text-[9px] font-bold uppercase tracking-widest text-muted sm:text-[10px] sm:tracking-[0.12em]">
                 {stat.label}
               </span>
             </div>
